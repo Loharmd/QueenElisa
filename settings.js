@@ -2,7 +2,7 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 module.exports = {
-  SESSION_ID: '',
+  SESSION_ID: '{"noiseKey":{"private":{"type":"Buffer","data":"6A/nGPmhUO6Satu2ShA+XLwLfYa+TCnDYFc6wotTV0E="},"public":{"type":"Buffer","data":"p5jxyhblx2MMDnpxbRPGOqkotyR44Cw7WDV2tChScWc="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"uLrnRZ9LNDWjbqoADVIS01DNCQjof6kgqBeKqQGJGXQ="},"public":{"type":"Buffer","data":"n7I9DrS1527AQWIkcmFyJRKTGE0N4yL77BAvX7Iuekw="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"OAPhR7gys0l1nGyUUJoel1G3P//Rg07ruJuilZOh21c="},"public":{"type":"Buffer","data":"KQdQUERoLHfs91XsVdA/te6x+MZuQJiCY9tK5QzV8RU="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"iKxO13tm0vmBdz1eT78ixH9hWxe0dzIVf+3KWV5hBE0="},"public":{"type":"Buffer","data":"hLTx1iD3SLkoqJwHdoZ2ipgaUoIyyD9mjeKtTGZ0mjA="}},"signature":{"type":"Buffer","data":"bI0/cve9BIJOLkpJXM3snL2pPTKVNjs2BQASz91qESqWbefCoKfPNePBURRkSvTSg3YmYoHKa8b/EP/Q+VgSgw=="},"keyId":1},"registrationId":72,"advSecretKey":"xmLAsS6bHOQqt3QMkAvNRqtC4KUVIjtiLYqSoqhVUsY=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"lOJxqEIUT52fPxa9_zKfrQ","phoneId":"df8c3e9a-d13b-41c5-a3f2-58f6730987ba","identityId":{"type":"Buffer","data":"WUz5unx4eqaHjpEKGcRKF3k+++A="},"registered":false,"backupToken":{"type":"Buffer","data":"au2OQMH3HdIHAdxNcJvSHj2hzlQ="},"registration":{},"account":{"details":"CNKmgtYDENW1hbYGGAUgACgA","accountSignatureKey":"Nzrks+dWLIau5Zop2HuUgNOIlhx5+hDpOi+4hmtpzBA=","accountSignature":"Dg3nL7GUzmCsz+H6cZs74vrWDYFL0CJcakwPP3dOdadGnqJbqhF2G1c4gjfb0wyG3Bd61iXhEShpmqH+K21CDA==","deviceSignature":"yPo1ni8VntIqhtcUMNQ/2x0Sz6fkd/19ZUOVLDSn9Xqvt7tURFqFWMQTSkwahcEBEripTdicPI0bZ493dUFKhQ=="},"me":{"id":"923481473477:24@s.whatsapp.net"},"signalIdentities":[{"identifier":{"name":"923481473477:24@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BTc65LPnViyGruWaKdh7lIDTiJYcefoQ6TovuIZracwQ"}}],"platform":"android","lastAccountSyncTimestamp":1723947736,"myAppStateKeyId":"AAAAACZe"}',
   ALIVE_REACT: '👋',
   ALIVE_MESSAGE: `*Hello @name [ And @gname @members Number of Members ] I am Alive Now !*
 
@@ -19,13 +19,13 @@ module.exports = {
 
 Qᴜᴇᴇɴ ᴇʟɪꜱᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ`,
   ALIVE_MEDIA: 'https://telegra.ph/file/d842677f522b6bef4dfe6.jpg',
-  MONGODB_URL: '', 
+  MONGODB_URL: 'mongodb+srv://Mughal:mughaltechz@cluster0.zzldy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', 
   PREFIX: '.$&',
   LANGUAGE: 'EN',
   PORT: 3000,
   BOT_NAME: '𝐐𝐔𝐄𝐄𝐍 𝐄𝐋𝐈𝐒𝐀',
   OWNER_NAME: 'ᴍ ʀ  ɴ ɪ ᴍ ᴀ',
-  OWNER_NUMBER: '94715166712',
+  OWNER_NUMBER: '92481473477',
   SUDO: '94715166712',
   WORK_TYPE: 'public',
   WORK_MODE: 'group',
